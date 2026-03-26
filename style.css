@@ -39,6 +39,9 @@
     --bg-input-register: #FAFAFA;
     --btn-register-size: 14px;
     --btn-register-color: #3b4e92;
+    --bg-color-footer: #2C4928;
+    --text-footer-size: 14px;
+    --text-footer-color: #ffffff;
 
 }
 
@@ -278,4 +281,18 @@ hr {
     font-size: var(--btn-register-size);
     color: var(--btn-register-color);
     text-decoration: none;
+}
+
+footer {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-color-footer);
+}
+
+.text-footer {
+    font-family: var(--font-epilogue);
+    font-size: var(--text-footer-size);
+    color: var(--text-footer-color);
 }
