@@ -234,7 +234,7 @@ hr {
     height: 400px;
     background-image: url(./images/img-recycle.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     display: flex;
     align-items: center;
 
