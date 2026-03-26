@@ -21,7 +21,16 @@
     --main-title-urbitavel-color: #678363;
     --text-urbitavel-size: 15px;
     --text-urbitavel-color: #484545;
-    
+    --main-title-about-size: 32px;
+    --main-title-about-color: #484545;
+    --secondary-title-about-size: 20px;
+    --secondary-title-about-color: #484545;
+    --text-about-size: 15px;
+    --text-about-color: #484545;
+    --border-btn: #3B4E92;
+    --bg-btn: #FFFFFF;
+    --color-btn: #3B4E92;
+    --btn-text-size: 14px;
 }
 
 header {
@@ -155,4 +164,52 @@ main {
 
 .img-trash {
 
+}
+
+.section-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 0 150px 0;
+}
+
+.main-title-about {
+    font-size: var(--main-title-about-size);
+    color: var(--main-title-about-color);
+    line-height: 50px;
+}
+
+.secondary-title-about {
+    font-size: var(--secondary-title-about-size);
+    color: var(--secondary-title-about-color);
+}
+
+.container-about-text {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 60px 0 55px 0;
+}
+
+.about-text {
+    font-family: var(--font-epilogue);
+    font-size: var(--text-about-size);
+    color: var(--text-about-color);
+}
+
+.btn-about {
+    width: 177px;
+    height: 38px;
+    border: 1px solid var(--border-btn);
+    border-radius: 6px;
+    background-color: var(--bg-btn);
+}
+
+.link-about {
+    font-family: var(--font-epilogue);
+    font-size: var(--btn-text-size);
+    color: var(--color-btn);
+    text-decoration: none;
 }
