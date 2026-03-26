@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color-header: #2C4928;
+    --font-epilogue: "Epilogue", sans-serif;
+    --logo-color: #ffffff;
+    --logo-size: 40px;
+    --link-header-size: 14px;
+    --link-header-white: #ffffff;
+    --link-header-support-color: #847D7D;
+    --bg-link-header-support: #16280D;
+    --font-weight-400: 400;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--bg-color-header);
+}
+
+.container-logo-about {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-text {
+    font-family: var(--font-epilogue);
+    font-size: var(--logo-size);
+    font-weight: var(--font-weight-400);
+    color: var(--logo-color);
+}
+
+.icon-moon {
+    width: 32px;
+}
+
+.list-about-urbitavel {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    list-style: none;
+}
+
+.link-header {
+    font-family: var(--font-epilogue);
+    font-size: var(--link-header-size);
+    font-weight: var(--font-weight-400);
+    color: var(--link-header-white);
+    text-decoration: none;
+}
+
+.list-support-urbitavel {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    list-style: none;
+}
+
+.link-talk-to-us, .link-privacy, .link-support {
+    font-family: var(--font-epilogue);
+    font-size: var(--link-header-size);
+    font-weight: var(--font-weight-400);
+    color: var(--link-header-support-color);
+    text-decoration: none;
+}
+
+.link-support {
+    font-size: 16px;
+    color: var(--link-header-white);
+}
+
+.btn-support {
+    width: 130px;
+    height: 42px;
+    background-color: var(--bg-link-header-support);
+    color: var(--link-header-white);
+    border-radius: 57px;
+    border: none;
+}
