@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -15,6 +16,12 @@
     --link-header-support-color: #847D7D;
     --bg-link-header-support: #16280D;
     --font-weight-400: 400;
+    --bg-container-urbitavel: #ffffff;
+    --main-title-urbitavel-size: 48px;
+    --main-title-urbitavel-color: #678363;
+    --text-urbitavel-size: 15px;
+    --text-urbitavel-color: #484545;
+    
 }
 
 header {
@@ -70,7 +77,9 @@ header {
     list-style: none;
 }
 
-.link-talk-to-us, .link-privacy, .link-support {
+.link-talk-to-us,
+.link-privacy,
+.link-support {
     font-family: var(--font-epilogue);
     font-size: var(--link-header-size);
     font-weight: var(--font-weight-400);
@@ -90,4 +99,60 @@ header {
     color: var(--link-header-white);
     border-radius: 57px;
     border: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-urbitavel {
+    background-image: url(./images/img-forest.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-urbitavel {
+    height: 500px;
+    width: 85%;
+    background-color: var(--bg-container-urbitavel);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    margin: 90px 0 0 0;
+}
+
+.container-urbitavel-content {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.urbitavel-main-title {
+    font-family: var(--font-epilogue);
+    font-size: var(--main-title-urbitavel-size);
+    color: var(--main-title-urbitavel-color);
+    align-self: center;
+}
+
+.container-urbitavel-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.urbitavel-text {
+    font-family: var(--font-epilogue);
+    font-size: var(--text-urbitavel-size);
+    color: var(--text-urbitavel-color);
+}
+
+.img-trash {
+
 }
