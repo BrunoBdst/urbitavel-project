@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-epilogue: "Epilogue", sans-serif;
+    --weak-green: #2C4928;
+    --white: #ffffff;
+    --size-40: 40px;
+    --size-14: 14px;
+    --weak-gray: #847d7d;
+    --strong-green: #16280D;
+    --font-weight-400: 400;
+    --size-48: 48px;
+    --green-2: #678363;
+    --strong-gray: #484545;
+    --size-32: 32px;
+    --size-20: 20px;
+    --size-15: 15px;
+    --size-16: 16px;
+    --blue: #3B4E92;
+    --size-24: 24px;
+    --size-24: 24px;
+    --black: #000000;
+    --white2: #FAFAFA; 
+    --hr-color: #BEBEBE;
+    --white3: #F4F9F3;
+
+}
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--weak-green);
+}
+
+.container-logo-about {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-text {
+    font-family: var(--font-epilogue);
+    font-size: var(--size-40);
+    font-weight: var(--font-weight-400);
+    color: var(--white);
+}
+
+.icon-moon {
+    width: 32px;
+}
+
+.list-about-urbitavel {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    list-style: none;
+}
+
+.link-header {
+    font-family: var(--font-epilogue);
+    font-size: var(--size-14);
+    font-weight: var(--font-weight-400);
+    color: var(--white);
+    text-decoration: none;
+}
+
+.list-support-urbitavel {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    list-style: none;
+}
+
+.link-talk-to-us,
+.link-privacy,
+.link-support {
+    font-family: var(--font-epilogue);
+    font-size: var(--size-14);
+    font-weight: var(--font-weight-400);
+    color: var(--weak-gray);
+    text-decoration: none;
+}
+
+.link-support {
+    font-size: var(--size-16);
+    color: var(--white);
+}
+
+.btn-support {
+    width: 130px;
+    height: 42px;
+    background-color: var(--strong-green);
+    color: var(--link-header-white);
+    border-radius: 57px;
+    border: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-img {
+    display: flex;
+    width: 100%;
+}
+
+.img-forest {
+    max-width: 100%;
+    flex: 1 1 0;
+}
+
+.section-about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    border-radius: 40px;
+    background-color: var(--white3);
+    padding: 60px 100px;
+    position: absolute;
+    top: 30%;
+}
+
+.main-title-about-us {
+    font-family: var(--font-epilogue);
+    font-size: var(--size-48);
+    color: var(--green-2);
+}
+
+.img-lab {
+    width: 500px;
+    flex: 1 1 0;
+}
+
+.container-content-text {
+    max-width: 440px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1 1 auto;
+}
+
+.text-about-us {
+    font-family: var(--font-epilogue);
+    font-size: var(--size-15);
+    color: var(--strong-gray);
+}
+
+.container-void {
+    height: 500px;
+}
+
+hr {
+    height: 30px;
+    background-color: var(--hr-color);
+    border: none;
+}
+
+.section-register {
+    height: 400px;
+    background-image: url(../images/img-recycle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+}
+
+.container-register-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 0 0 140px;
+}
+
+.main-title-register {
+    font-family: var();
+    font-size: var(--size-24);
+    color: var(--strong-gray);
+}
+
+.text-register {
+    font-family: var();
+    font-size: var(--size-20);
+    color: var(--strong-gray);
+}
+
+.input-register {
+    width: 280px;
+    height: 30px;
+    border: 1px solid var(--black);
+    background-color: var(--white2);
+    padding: 5px;
+}
+
+.btn-register {
+    width: 190px;
+    height: 35px;
+    border-radius: 6px;
+    border: 1px solid var(--blue);
+    background-color: var(--white);
+
+}
+
+.link-register {
+    font-family: var(--font-epilogue);
+    font-size: var(--size-14);
+    color: var(--blue);
+    text-decoration: none;
+}
+
+footer {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--weak-green);
+}
+
+.text-footer {
+    font-family: var(--font-epilogue);
+    font-size: var(--size-14);
+    color: var(--white);
+}
